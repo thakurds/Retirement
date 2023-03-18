@@ -19,17 +19,7 @@ for filename in os.listdir(jpg_directory):
             img.save(pdf_filename, "PDF")
             pdf_files.append(pdf_filename)
 
-# Merge all PDF files into a single PDF
 
-# merged_pdf = fitz.open()
-# for filename in os.listdir(pdf_directory):
-#     if filename.endswith(".pdf"):
-#         print (filename)
-#         for page in filename:
-#             merged_pdf.insert_pdf(page)
-
-# # Save the merged PDF to a file
-# merged_pdf.save('merged.pdf')
 
 
 
