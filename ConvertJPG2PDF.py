@@ -4,6 +4,9 @@ import os
 #import fitz
 
 # Set directory containing JPG files
+# It is assumed that jpg files are stored in current folder
+# incase file are in different folder change the path 
+
 jpg_directory ="."
 pdf_directory ="."
 
